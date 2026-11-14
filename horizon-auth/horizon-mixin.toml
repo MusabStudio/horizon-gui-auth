@@ -1,0 +1,11 @@
+# Horizon GUI Auth: a native trait mod (docs/native-mods.md, "Trait mods").
+# Build it with the Horizon launcher, or use the server-engine command in README.md.
+[mod]
+id = "horizon_auth"
+version = "0.1.0"
+
+[compatibility]
+horizon_revision = "084b20d5cfbb104d4a70f61091198831074619f1"
+
+[api]
+path = "api"

@@ -1,0 +1,19 @@
+﻿# Rust build output from local checks. The launcher builds in its own tree.
+**/target/
+.cargo/
+
+# Runtime state written by the mod; never commit accounts or passwords.
+accounts.db
+accounts.db-wal
+accounts.db-shm
+*.db
+*.db-wal
+*.db-shm
+
+# The mod is built inside Horizon's workspace, whose Cargo.lock is the allow list.
+api/Cargo.lock
+
+# Local logs / editor files
+*.log
+.DS_Store
+Thumbs.db
